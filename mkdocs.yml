@@ -1,0 +1,37 @@
+site_name: NurseWiki
+site_url: https://yourusername.github.io/nursewiki/
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - search.suggest
+    - content.code.copy
+nav:
+  - Home: index.md
+  - Foundations:
+      - Anatomy & Physiology: foundations/anatomy-physiology.md
+      - Microbiology: foundations/microbiology.md
+      - Pharmacology Basics: foundations/pharmacology-basics.md
+  - Clinical:
+      - Med-Surg: clinical/med-surg/
+      - Mental Health: clinical/mental-health/
+      - Maternal & Child: clinical/maternal-child/
+      - Community: clinical/community/
+  - Skills:
+      - Vitals: skills/vitals.md
+      - IV Therapy: skills/iv-therapy.md
+      - Wound Care: skills/wound-care.md
+      - Medication Admin: skills/medication-admin.md
+  - Drugs:
+      - Overview: drugs/index.md
+      - Beta Blockers: drugs/beta-blockers.md
+      - Anticoagulants: drugs/anticoagulants.md
+  - Ghana:
+      - Licensing: ghana/licensing.md
+      - Scope of Practice: ghana/scope-of-practice.md
+      - Health System: ghana/health-system.md
+  - Study:
+      - NCLEX: study/nclex.md
+      - Exam Tips: study/exam-tips.md
+      - Rotation Prep: study/clinical-rotation-prep.md
+  - About: about.md
